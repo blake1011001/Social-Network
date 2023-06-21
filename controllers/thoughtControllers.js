@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongoose');
-const { Thought, User } = require('../models');
+const { Thought, User } = require('..');
 
 const thoughtController = {
     getThought: async function (req, res) {
